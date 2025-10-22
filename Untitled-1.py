@@ -23,15 +23,16 @@ values = [sleep_sum, work_sum, hobby_sum]
 plt.barh(categories, values,height = 0.5, left = 5, color = 'green', edgecolor = 'black', align = 'center')
 plt.show()
 
-#Shows students grades based on if they think they have a work life balance
-grade_names = ['A', 'B', 'C', 'D', 'F']
-yes_list = []
-kind_list = []
-no_list = []
-def work_life():
-    if df['Work-Life Balance'] == 'Yes':
-        yes_list.append(df['Grades'])
+#Shows percentages of grades on a pie chart
+s = formData['Grades']
+counts = Counter(s)
+d = dict(counts)
+print(d)
+labels = list(d.keys())
+grade_count = list(d.values())
+fig, ax = plt.subplots()
+ax.pie(grade_count, labels = labels, autopct='%1.1f%%', pctdistance=1.25, labeldistance=.6)
+plt.show()
 
-work_life()
-print(yes_list)
+
 
