@@ -21,17 +21,17 @@ List the questions you asked in your survey and their type:
 |---|---------------|-------------------------------------------------|
 | 1 | _Do you have any hobbies outside of school? (ex: sport, cooking, gaming)_ | Multiple Choice |
 | 2 | _Do you think you have a good balance between school, hobbies, and sleep?_ | Multiple Choice |
-| 3 | _Roughly, how many hours of sleep do you get per night? (on weekdays)_ | _Numeric_ |
-| 4 | _Roughly, how many hours do you study per day? (on weekdays)_ | _Numeric_ |
-| 5 | _Roughly, how many hours do you dedicate to your hobby per day? (on weekdays)_ | _Numeric_ |
-| 6 | _What kind of grades do you get?_ | _Multiple Choice_ |
+| 3 | _Roughly, how many hours of sleep do you get per night? (on weekdays)_ | Numeric |
+| 4 | _Roughly, how many hours do you study per day? (on weekdays)_ | Numeric |
+| 5 | _Roughly, how many hours do you dedicate to your hobby per day? (on weekdays)_ | Numeric |
+| 6 | _What kind of grades do you get?_ | Multiple Choice |
 
 ---
 
 ## Data Overview
 - **Link to Raw Data File (CSV):** [Download here](./form_results.csv)
-- **Number of Columns:** _e.g., 6_
-- **Number of Rows:** _e.g., 36_
+- **Number of Columns:** _6_
+- **Number of Rows:** _30_
 - **Any Cleaning Steps Taken:** _Got rid of taking initials in junk data, got rid of the date and time taken in the google form data_
 
 ---
@@ -41,16 +41,16 @@ List each chart you made, its type, and what it shows. Add a link or embed an im
 
 | # | Chart Title | Chart Type (Bar, Histogram, Scatter, etc.) | Brief Description | Link or Image |
 |---|-------------|-------------------------------------------|-------------------|---------------|
-| 1 | _Average Sleep by Grade Level_ | Bar Chart | Shows average hours of sleep for each grade level. | ![Chart 1](chart1.png) |
-| 2 | _Distribution of Screen Time_ | Histogram | Shows how many students fall into different screen-time ranges. | ![Chart 2](chart2.png) |
-| 3 | _Caffeine Consumption vs GPA_ | Scatter Plot | Shows relationship between caffeine intake and GPA. | ![Chart 3](chart3.png) |
+| 1 | _Hobby Count_ | Histogram | Shows how many students have hobbies, don't have hobbies, or kind of have hobbies. | ![Chart 1](chart1.png) |
+| 2 | _Time Budget Counts_ | Horizontal Bar Chart | Shows how students spend their time (studying, hobbies, or sleeping). | ![Chart 2](chart2.png) |
+| 3 | _Student Grades_ | Pie Chart | Shows the grade count for the students. | ![Chart 3](chart3.png) |
 
 ---
 
 ## Data Analysis & Insights
 Write a short analysis of your findings. Include at least one interesting insight from your data.
 
-> _Example:_ “We found that students who sleep 7–8 hours per night reported higher average GPAs than those who sleep less than 5 hours. Energy drink consumption peaked among 11th graders.”
+> I found that 
 
 ---
 
